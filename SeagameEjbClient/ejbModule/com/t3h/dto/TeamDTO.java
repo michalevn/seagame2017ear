@@ -1,6 +1,8 @@
 package com.t3h.dto;
 
-public class TeamDTO {
+import java.io.Serializable;
+
+public class TeamDTO implements Serializable {
 
 	private Integer teamId;
 	private String teamName;
